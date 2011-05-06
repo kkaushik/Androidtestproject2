@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <EditText android:id="@+id/v1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:numeric="decimal|signed"/>
+
+    <Spinner 
+        android:id="@+id/opselector"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/op_prompt"
+    />
+
+    <EditText android:id="@+id/v2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:numeric="decimal|signed"/>
+
+    <Button android:id="@+id/add_entry"
+        	android:text="Add entry"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"/>
+</LinearLayout>
+

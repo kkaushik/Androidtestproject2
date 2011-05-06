@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JsonCalc</string>
+    <string name="main_no_items">No items</string>
+    <string name="menu_entry">Add entry</string>
+    <string name="menu_process">Process list</string>
+    <string name="menu_clear">Clear list</string>
+    <string name="op_prompt">Select operation</string>
+</resources>
